@@ -7,13 +7,13 @@ namespace FiasBeta.Manager.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class ChangeColumnTypeTypeRemovedColumns : IMigrationMetadata
+    public sealed partial class First : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ChangeColumnTypeTypeRemovedColumns));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(First));
         
         string IMigrationMetadata.Id
         {
-            get { return "201710030716098_ChangeColumnTypeTypeRemovedColumns"; }
+            get { return "201710032002566_First"; }
         }
         
         string IMigrationMetadata.Source

@@ -59,25 +59,13 @@ namespace FiasBeta.Entities
         [Column("POSTALCODE")]
         public string PostalCode { get; set; }
 
-        //[Column("IFNSFL")]
-        //public string IfnsFl { get; set; }
+		[Column("OKATO")]
+		public string Okato { get; set; }
 
-        //[Column("TERRIFNSFL")]
-        //public string TerrIfnsFl { get; set; }
+		[Column("OKTMO")]
+		public string Oktmo { get; set; }
 
-        //[Column("IFNSUL")]
-        //public string IfnsUl { get; set; }
-
-        //[Column("TERRIFNSUL")]
-        //public string TerrIfnsUl { get; set; }
-
-        //[Column("OKATO")]
-        //public string Okato { get; set; }
-
-        //[Column("OKTMO")]
-        //public string Oktmo { get; set; }
-
-        [Column("SHORTNAME")]
+		[Column("SHORTNAME")]
         public string ShortName { get; set; }
 
         [Column("PARENTGUID")]

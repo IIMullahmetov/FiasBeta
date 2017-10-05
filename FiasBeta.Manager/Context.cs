@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using FiasBeta.Manager;
+using System.Data.Entity;
 
 namespace FiasBeta.Entities
 {
@@ -6,7 +7,11 @@ namespace FiasBeta.Entities
     {
 
         public DbSet<AddressObject> Addresses { get; set; }
-        public DbSet<House> Houses { get; set; }
+		public DbSet<Subject> Subjects { get; set; }
+		public DbSet<City> Sities { get; set; }
+		public DbSet<Area> Areas { get; set; }
+		public DbSet<Street> Streets { get; set; }
+		public DbSet<Manager.House> Houses { get; set; }
 
         public Context() : base("Context")
         {

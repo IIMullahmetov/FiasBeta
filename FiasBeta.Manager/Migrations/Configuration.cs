@@ -10,7 +10,6 @@ namespace FiasBeta.Manager.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "FiasBeta.Entities.Context";
         }
 
         protected override void Seed(FiasBeta.Entities.Context context)
